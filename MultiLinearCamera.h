@@ -13,6 +13,8 @@
  ***************************************************************************************/
 #include <avr/io.h>
 
+#define NCAM 4
+
 #define LCAM_PORT(X)  LCAMX_PORT // lcamera port
 #define LCAM_PIN(X)   LCAMX_PIN // lcamera pin
 #define LCAM_DDR(X)  LCAMX_DDR // lcamera DDR
